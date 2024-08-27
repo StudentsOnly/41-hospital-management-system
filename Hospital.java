@@ -38,15 +38,7 @@ public class Hospital {
         }
     }
 
-    public void displayAllDoctors() {
-        System.out.println("\n--- Doctors ---");
-        for (Doctor doctor : doctors) {
-            doctor.displayDoctorInfo();
-        }
-    }
-
-    public void displayAllAppointments() {
-        System.out.println("\n--- Appointments ---");
+    public void displayBookingInformation() {
         for (Appointment appointment : appointments) {
             appointment.displayAppointmentDetails();
         }

@@ -23,8 +23,8 @@ public class Main {
         hospitalMNG.scheduleAppointment(appointment2);
 
         // Display information
-        hospitalMNG.displayAllPatients();
-        hospitalMNG.displayAllDoctors();
-        hospitalMNG.displayAllAppointments();
+
+
+        hospitalMNG.displayBookingInformation();
     }
 }
