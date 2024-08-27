@@ -69,7 +69,7 @@ public class Hospital {
     }
 
     public void displayAppointment(String id) {
-        System.out.println(getDoctor(id));
+        System.out.println(getAppointment(id));
     }
 
     public void displayPatients() {
